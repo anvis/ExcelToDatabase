@@ -1,0 +1,8 @@
+**\bin
+obj/
+obj
+obj/
+.vs
+Debug
+DataLayer\bin
+DomainEntity\bin

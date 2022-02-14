@@ -1,0 +1,13 @@
+<h1>Counter</h1>
+
+<p>This is a simplA nvi</p>
+
+<h1>Blog Posts</h1>
+<div *ngIf="undefined === restItems">Loading...</div>
+<div *ngIf="undefined !== restItems">
+  <ul>
+    <li *ngFor="let post of restItems" [innerHTML]="post.stockName">
+    <li *ngFor="let post of restItems" [innerHTML]="post.mcapCategory">
+    </li>
+  </ul>
+</div>
